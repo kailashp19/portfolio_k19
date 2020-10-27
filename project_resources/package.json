@@ -1,0 +1,11 @@
+{
+  "name": "project_resources",
+  "version": "1.0.0",
+  "description": "Personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Kailash Patel",
+  "license": "ISC"
+}

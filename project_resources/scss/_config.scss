@@ -1,0 +1,16 @@
+$website-width: 1280px;
+$main-color: rgba(240, 34, 96, 0.904);
+$light-color: #f4f4f4;
+$dark-color: #333;
+$medium-color: #bbb0b0;
+$bg-image: url('../dist/img/bg1.png');
+
+//set text color
+@function set-text-color($color){
+    @if(lightness($color)>50){
+        @return #000;
+    }
+    @else{
+        @return #f4f4f4;
+    }
+}
