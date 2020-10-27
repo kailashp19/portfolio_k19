@@ -61,7 +61,7 @@ img{
 }
 #header{
     &-home{
-        background: #000 no-repeat center right / cover;
+        background: $bg-image no-repeat center right / cover;
         height: 100vh;
         color: #fff;
 
@@ -76,7 +76,7 @@ img{
         }
     }
     &-inner{
-        background: #000 no-repeat 20% 30% / cover;
+        background: $bg-image no-repeat 20% 30% / cover;
         height: 5.5rem;
         border-bottom: 3px solid $main-color;
     }
