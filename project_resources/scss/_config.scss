@@ -5,6 +5,7 @@ $dark-color: #333;
 $medium-color: #bbb0b0;
 $bg-image: url('../dist/img/bg1.png');
 
+
 //set text color
 @function set-text-color($color){
     @if(lightness($color)>50){
