@@ -1,17 +1,12 @@
 {
-  "name": "project_resources",
+  "name": "personal_portfolio",
   "version": "1.0.0",
-  "description": "Personal portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o dist/css"
   },
   "author": "Kailash Patel",
-  "license": "ISC",
-  "dependencies": {
-    "sass": "^1.27.0"
-  },
-  "devDependencies": {
-    "node-sass": "^4.14.1"
-  }
+  "license": "ISC"
 }

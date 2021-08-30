@@ -61,22 +61,21 @@ img{
 }
 #header{
     &-home{
-        background: #000000 no-repeat center right / cover;
-        height: 100vh;
+        background: #0C3B52 no-repeat center right / cover;
+        height: 55vh;
         color: #fff;
 
         .header-content{
             text-align: center;
-            padding: 20%;
-
-            h1{
-                font-size: 4rem;
-                line-height: 1.2;
-            }
+            padding: 5%;
+                h1{
+                    font-size: 4rem;
+                    line-height: 1.2;
+                }
         }
     }
     &-inner{
-        background: #000000 no-repeat 20% 30% / cover;
+        background: #0C3B52 no-repeat 20% 30% / cover;
         height: 5.5rem;
         border-bottom: 3px solid $main-color;
     }
@@ -254,7 +253,7 @@ img{
             'name subject'
             'email phone'
             'message message';
-            grid-gap: 1.2rem;
+            grid-gap: 1rem;
             margin-bottom: 1.2rem;
 
             .name-input{
