@@ -21,7 +21,7 @@
 
 .btn-dark {
   color: #333333;
-  background-color: #0C3B52; }
+  background-color: #004872; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -37,7 +37,7 @@ input[class^='btn-']:hover {
   color: #000; }
 
 .bg-dark {
-  background: #0C3B52;
+  background: #004872;
   color: #f4f4f4; }
 
 .bg-medium {
@@ -174,7 +174,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0C3B52; }
+  color: #004872; }
 
 ul {
   list-style: none; }
@@ -212,7 +212,7 @@ img {
       border-color: rgba(220, 90, 0, 0.904); }
 
 #header-home {
-  background: #0C3B52 no-repeat center right / cover;
+  background: #004872 no-repeat center right / cover;
   height: 55vh;
   color: #fff; }
   #header-home .header-content {
@@ -223,7 +223,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: #0C3B52 no-repeat 20% 30% / cover;
+  background: #004872 no-repeat 20% 30% / cover;
   height: 5.5rem;
   border-bottom: 3px solid rgba(220, 90, 0, 0.904); }
 
@@ -273,7 +273,7 @@ img {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #0C3B52;
+    background: #004872;
     color: #f4f4f4;
     padding: 2rem;
     width: 70px;
@@ -288,7 +288,7 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #0C3B52;
+        background: #004872;
         color: #f4f4f4; }
 
 #about-a .about-info {
@@ -372,14 +372,16 @@ img {
   font-size: 4rem; }
 
 #main-footer {
-  background: #0C3B52;
+  background: #004872;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
     height: 5rem;
-    align-items: center; }
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px; }
     #main-footer .footer-content .social .fa {
       margin-right: 1rem;
       border: 2px #fff solid;

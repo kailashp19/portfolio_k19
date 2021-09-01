@@ -61,7 +61,7 @@ img{
 }
 #header{
     &-home{
-        background: #0C3B52 no-repeat center right / cover;
+        background: #004872 no-repeat center right / cover;
         height: 55vh;
         color: #fff;
 
@@ -75,7 +75,7 @@ img{
         }
     }
     &-inner{
-        background: #0C3B52 no-repeat 20% 30% / cover;
+        background: #004872 no-repeat 20% 30% / cover;
         height: 5.5rem;
         border-bottom: 3px solid $main-color;
     }
@@ -313,6 +313,8 @@ img{
         justify-content: space-between;
         height: 5rem;
         align-items: center;
+        font-weight: bold;
+        font-size: 20px;
 
         .social .fa{
             margin-right: 1rem;
