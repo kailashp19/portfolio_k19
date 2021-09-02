@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333333;
-  background-color: rgba(220, 90, 0, 0.904); }
+  background-color: rgba(245, 9, 146, 0.904); }
 
 .btn-light {
   color: #333333;
@@ -21,15 +21,15 @@
 
 .btn-dark {
   color: #333333;
-  background-color: #004872; }
+  background-color: #0055a5; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: rgba(220, 90, 0, 0.904); }
+  background-color: rgba(245, 9, 146, 0.904); }
 
 .bg-main {
-  background: rgba(220, 90, 0, 0.904);
+  background: rgba(245, 9, 146, 0.904);
   color: #f4f4f4; }
 
 .bg-light {
@@ -37,7 +37,7 @@ input[class^='btn-']:hover {
   color: #000; }
 
 .bg-dark {
-  background: #004872;
+  background: #0055a5;
   color: #f4f4f4; }
 
 .bg-medium {
@@ -78,7 +78,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: rgba(220, 90, 0, 0.904);
+  background: rgba(245, 9, 146, 0.904);
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +97,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: rgba(220, 90, 0, 0.904);
+  background: rgba(245, 9, 146, 0.904);
   overflow: hidden; }
   .item::after {
     content: '';
@@ -174,7 +174,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #004872; }
+  color: #0055a5; }
 
 ul {
   list-style: none; }
@@ -209,10 +209,15 @@ img {
     #main-nav a:hover {
       border-color: #bbb0b0; }
     #main-nav a.current {
-      border-color: rgba(220, 90, 0, 0.904); }
+      border-color: rgba(245, 9, 146, 0.904); }
+
+hr {
+  margin: 9.8px -20px 20px;
+  border: 0;
+  border-top: 2.5px solid rgba(245, 9, 146, 0.904); }
 
 #header-home {
-  background: #004872 no-repeat center right / cover;
+  background: #0055a5 no-repeat center right/cover;
   height: 55vh;
   color: #fff; }
   #header-home .header-content {
@@ -223,9 +228,9 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: #004872 no-repeat 20% 30% / cover;
+  background: #0055a5 no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid rgba(220, 90, 0, 0.904); }
+  border-bottom: 3px solid rgba(245, 9, 146, 0.904); }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -233,7 +238,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fa {
-    color: rgba(220, 90, 0, 0.904);
+    color: rgba(245, 9, 146, 0.904);
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -263,7 +268,7 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: rgba(220, 90, 0, 0.904);
+    background: rgba(245, 9, 146, 0.904);
     color: #f4f4f4;
     border-radius: 50%;
     height: 10px;
@@ -273,7 +278,7 @@ img {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #004872;
+    background: #0055a5;
     color: #f4f4f4;
     padding: 2rem;
     width: 70px;
@@ -283,12 +288,12 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: rgba(220, 90, 0, 0.904);
+      background: rgba(245, 9, 146, 0.904);
       width: 90px;
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #004872;
+        background: #0055a5;
         color: #f4f4f4; }
 
 #about-a .about-info {
@@ -302,8 +307,10 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid rgba(220, 90, 0, 0.904);
-  padding: 0.8rem; }
+  border-left: 3px solid rgba(245, 9, 146, 0.904);
+  padding: 1rem; }
+  #about-a .bio p {
+    font-family: sans-serif; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -317,7 +324,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2.fas,
 #about-a .award-3.fas {
-  color: rgba(220, 90, 0, 0.904);
+  color: rgba(245, 9, 146, 0.904);
   margin: 1rem; }
 
 #about-b .progress {
@@ -330,7 +337,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: rgba(220, 90, 0, 0.904); }
+    background: rgba(245, 9, 146, 0.904); }
 
 #about-c .about-logos {
   display: grid;
@@ -372,7 +379,7 @@ img {
   font-size: 4rem; }
 
 #main-footer {
-  background: #004872;
+  background: #0055a5;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {
@@ -393,7 +400,7 @@ img {
       padding: 0.5rem;
       color: #fff; }
       #main-footer .footer-content .social .fa:hover {
-        background: rgba(220, 90, 0, 0.904); }
+        background: rgba(245, 9, 146, 0.904); }
 
 @media (max-width: 800px) {
   #header-home {
@@ -409,7 +416,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid rgba(220, 90, 0, 0.904);
+    border-bottom: 3px solid rgba(245, 9, 146, 0.904);
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }

@@ -59,9 +59,14 @@ img{
         }
     }
 }
+hr{
+    margin: 9.8px -20px 20px;
+    border: 0;
+    border-top: 2.5px solid rgba(245, 9, 146, 0.904);
+}
 #header{
     &-home{
-        background: #004872 no-repeat center right / cover;
+        background: rgb(0, 85, 165) no-repeat center right / cover;
         height: 55vh;
         color: #fff;
 
@@ -75,7 +80,7 @@ img{
         }
     }
     &-inner{
-        background: #004872 no-repeat 20% 30% / cover;
+        background: rgb(0, 85, 165) no-repeat 20% 30% / cover;
         height: 5.5rem;
         border-bottom: 3px solid $main-color;
     }
@@ -192,7 +197,11 @@ img{
         .bio{
             grid-area: bio;
             border-left: 3px solid $main-color;
-            padding: 0.8rem;
+            padding: 1rem;
+
+            p{
+                font-family: sans-serif;
+            }
         }
 
         .award-1{
